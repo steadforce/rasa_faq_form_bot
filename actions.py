@@ -33,7 +33,8 @@ class HotelForm(FormAction):
 
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict[Text, Any]]]]:
         return {
-            "number_of_persons":[self.from_text(intent="inform")],
+            "number_of_persons":[self.from_entity(entity="number", intent=["inform"])],
             "arrival_date" :[self.from_entity(entity="date", intent=["inform"])],
             "nights": [self.from_entity(entity="days", intent=["inform"])],
+            "room_type": [self.from_entity(entity="room_type", intent=["inform"])],
         }

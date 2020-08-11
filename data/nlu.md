@@ -5,29 +5,21 @@
 - Hey
 - Sears
 
-## intent:goodbye
-- Tschüss
-- Auf Wiedersehen
-- Wiederhörn
-- Bis bald
-- Bis dahin
-- Vielen Dank für alles
-
-## intent:where_is_the_hotel
+## intent: faq/ask_location
 - Wo ist das Hotel?
 - Wo kann ich euch finden?
 - Das Hotel ist wo?
 - In welcher Stadt ist das Hotel?
 - Wo befindet sich das Hotel 'Zum sprechenden Bot'?
 
-## intent:what_does_it_look_like 
+## intent: faq/ask_look 
 - Wie sieht das Hotel von außen aus?
 - Ich möchte wissen wie es aussieht?
 - Woran erkenne ich das Hotel?
 - Wie sieht 'Zum sprechenden Bot' aus?
 - Kann ich ein Bild sehen?
 
-## intent:what_can_i_do_there
+## intent: faq/ask_attractions
 - Was kann ich dort machen?
 - Welche Aktivitäten sind bei euch möglich?
 - Gibt es Sehenswürdigkeiten?
@@ -38,6 +30,8 @@
 - Ich möchte ein Zimmer reservieren?
 - Ist es möglich hier zu buchen?
 - Eine Reservierung bitte.
+- Ich will eine [Junior](room_type) Suite reservieren.
+- Wie kann ich eine [Senior](room_type) Suite buchen?
 
 ## intent:inform
 - Wir sind zu [4](number)

@@ -1,10 +1,11 @@
 intents:
   - hello
-  - where_is_the_hotel
-  - what_does_it_look_like
-  - what_can_i_do_there
   - request_room
   - inform
+  - faq
+
+actions:
+  - respond_faq
 
 entities:
   - number
@@ -19,7 +20,7 @@ slots:
   number_of_persons:
     type: float
   nights:
-    type: float
+    type: text
   arrival_date:
     type: text
   room_type:
@@ -28,19 +29,10 @@ slots:
       - Junior
       - Senior
 
+
 responses:
   utter_greet:
   - text: "Herzlich Willkommen! Ich bin der Chatbot des Hotels 'Zum sprechenden Bot'. Wie kann ich helfen?"
-
-  utter_location:
-  - text: "Das Hotel 'Zum sprechenden Bot' befindet sich im Herzen Münchens mit Panoramablick auf die Alpen."
-
-  utter_look:
-  - text: "Unser Hotel ist wunderschön. Sehen sie selbst."
-    image: "https://link.to/the/hotel/image"
-
-  utter_atractions:
-  - text: "Im Süden die Alpen mit Bergen und Seen, vor der Haustür die Stadt mit Marienplatz, Olympiapark und einmal im Jahr findet das Oktoberfest statt"
 
   utter_ask_number_of_persons:
   - text: "Wie viele Personen werdet ihr sein?"
@@ -59,7 +51,7 @@ responses:
     - title: "Senior Suite"
       payload: '/choose{"room_type": "Senior"}'
   utter_submit:
-  - text: "Die Reservierung für eine {room_type} Suite für {number_of_persons} Personen ab {arrival_date} für {nights} Nächte ist bei uns eingegangen. Wir freuen uns auf dich/euch!"
+  - text: "Die Reservierung für eine {room_type} Suite für {number_of_persons} Personen ab {arrival_date} für 4 Nächte ist bei uns eingegangen. Wir freuen uns auf dich/euch!"
 
 session_config:
   session_expiration_time: 60
