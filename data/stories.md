@@ -11,3 +11,5 @@
     - hotel_form
     - form{"name": "hotel_form"}
     - form{"name": null}
+    
+# TODO use stories with inform intent and setting slots ?
