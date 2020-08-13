@@ -30,8 +30,8 @@
 - Ich möchte ein Zimmer reservieren?
 - Ist es möglich hier zu buchen?
 - Eine Reservierung bitte.
-- Ich will eine [Junior](room_type) Suite reservieren.
-- Wie kann ich eine [Senior](room_type) Suite buchen?
+- Ich möchte ein Zimmer für den [03.10.2020](date) buchen.
+- Ist ein Zimmer ab [02.11.2020](date) frei.
 
 ## intent:inform
 - Wir sind zu [4](number)

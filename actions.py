@@ -13,10 +13,11 @@ class HotelForm(FormAction):
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
         return [
-             "number_of_persons",
-             "arrival_date",
+            "number_of_persons",
+             "date",
              "nights",
-             "room_type" ]
+            "room_type"
+        ]
 
     def submit(
         self,
@@ -33,8 +34,7 @@ class HotelForm(FormAction):
 
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict[Text, Any]]]]:
         return {
-            "number_of_persons":[self.from_entity(entity="number", intent=["inform"])],
-            "arrival_date" :[self.from_entity(entity="date", intent=["inform"])],
+            "number_of_persons": [self.from_entity(entity="number", intent=["inform"])],
+            "date": [self.from_entity(entity="date", intent=["inform", "request_room"])],
             "nights": [self.from_entity(entity="days", intent=["inform"])],
-            "room_type": [self.from_entity(entity="room_type", intent=["inform"])],
         }

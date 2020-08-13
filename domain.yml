@@ -21,7 +21,7 @@ slots:
     type: float
   nights:
     type: text
-  arrival_date:
+  date:
     type: text
   room_type:
     type: categorical
@@ -37,7 +37,7 @@ responses:
   utter_ask_number_of_persons:
   - text: "Wie viele Personen werdet ihr sein?"
 
-  utter_ask_arrival_date:
+  utter_ask_date:
   - text: "Wann wollt ihr zu uns kommen?"
 
   utter_ask_nights:
@@ -51,7 +51,7 @@ responses:
     - title: "Senior Suite"
       payload: '/choose{"room_type": "Senior"}'
   utter_submit:
-  - text: "Die Reservierung für eine {room_type} Suite für {number_of_persons} Personen ab {arrival_date} für {nights} Nächte ist bei uns eingegangen. Wir freuen uns auf dich/euch!"
+  - text: "Die Reservierung für eine {room_type} Suite für {number_of_persons} Personen ab {date} für {nights} Nächte ist bei uns eingegangen. Wir freuen uns auf dich/euch!"
 
 session_config:
   session_expiration_time: 60

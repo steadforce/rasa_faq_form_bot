@@ -12,4 +12,9 @@
     - form{"name": "hotel_form"}
     - form{"name": null}
     
-# TODO use stories with inform intent and setting slots ?
+## Form FAQ Path
+* request_room
+    - hotel_form
+    - form{"name": "hotel_form"}
+* faq
+    - respond_faq
