@@ -1,5 +1,5 @@
 intents:
-  - hello
+  - greet
   - request_room
   - inform
   - faq
@@ -51,7 +51,7 @@ responses:
     - title: "Senior Suite"
       payload: '/choose{"room_type": "Senior"}'
   utter_submit:
-  - text: "Die Reservierung für eine {room_type} Suite für {number_of_persons} Personen ab {date} für {nights} Nächte ist bei uns eingegangen. Wir freuen uns auf dich/euch!"
+  - text: "Die Reservierung für eine {room_type} Suite ist bei uns eingegangen."
 
 session_config:
   session_expiration_time: 60

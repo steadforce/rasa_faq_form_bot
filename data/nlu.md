@@ -6,32 +6,32 @@
 - Sears
 
 ## intent: faq/ask_location
-- Wo ist das Hotel?
-- Wo kann ich euch finden?
-- Das Hotel ist wo?
-- In welcher Stadt ist das Hotel?
-- Wo befindet sich das Hotel 'Zum sprechenden Bot'?
+- Wo ist das Hotel
+- Wo kann ich euch finden
+- Das Hotel ist wo
+- In welcher Stadt ist das Hotel
+- Wo befindet sich das Hotel 'Zum sprechenden Bot'
 
 ## intent: faq/ask_look 
-- Wie sieht das Hotel von außen aus?
-- Ich möchte wissen wie es aussieht?
-- Woran erkenne ich das Hotel?
-- Wie sieht 'Zum sprechenden Bot' aus?
-- Kann ich ein Bild sehen?
+- Wie sieht das Hotel von außen aus
+- Ich möchte wissen wie es aussieht
+- Woran erkenne ich das Hotel
+- Wie sieht 'Zum sprechenden Bot' aus
+- Kann ich ein Bild sehen
 
 ## intent: faq/ask_attractions
-- Was kann ich dort machen?
-- Welche Aktivitäten sind bei euch möglich?
-- Gibt es Sehenswürdigkeiten?
-- Gibt es am Hotel was zu sehen?
-- Wo kann ich hin um Spaß zu haben?
+- Was kann ich dort machen
+- Welche Aktivitäten sind bei euch möglich
+- Gibt es Sehenswürdigkeiten
+- Gibt es am Hotel was zu sehen
+- Wo kann ich hin um Spaß zu haben
 
 ## intent:request_room
-- Ich möchte ein Zimmer reservieren?
-- Ist es möglich hier zu buchen?
-- Eine Reservierung bitte.
-- Ich möchte ein Zimmer für den [03.10.2020](date) buchen.
-- Ist ein Zimmer ab [02.11.2020](date) frei.
+- Ich möchte ein Zimmer reservieren
+- Ist es möglich hier zu buchen
+- Eine Reservierung bitte
+- Ich möchte ein Zimmer für den [03.10.2020](date) buchen
+- Ist ein Zimmer ab [02.11.2020](date) frei
 
 ## intent:inform
 - Wir sind zu [4](number)
